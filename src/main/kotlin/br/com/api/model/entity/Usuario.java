@@ -17,6 +17,8 @@ import java.io.Serializable;
 @Entity(name = "usuario")
 public class Usuario implements Serializable {
 
+    private static final long serialVersionUID = 9173297557936400119L;
+
     @Id
     @TableGenerator(
             table = "sequences",
